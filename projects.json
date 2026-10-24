@@ -1,0 +1,121 @@
+{
+  "roles": {
+    "mine": "Mine",
+    "co": "Co-owned",
+    "contrib": "Contributed"
+  },
+  "groups": [
+    {
+      "id": "interface",
+      "title": "Interface design",
+      "lede": "Small web apps that share one house style, and the share cards that carry them into a chat.",
+      "context": "palette · meta",
+      "projects": [
+        {
+          "name": "palette",
+          "desc": "A working portfolio of interface design: live apps, the house style and this family's palettes.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sankhacooray",
+          "years": "2026",
+          "og": "https://palette.sankhacooray.com/",
+          "thumb": "palette.jpg",
+          "url": "https://palette.sankhacooray.com/"
+        },
+        {
+          "name": "meta",
+          "desc": "Every sankhacooray.com sub-site, shown as the share card you see when you paste its link.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sankhacooray",
+          "years": "2026",
+          "og": "https://meta.sankhacooray.com/",
+          "thumb": "meta.jpg",
+          "url": "https://meta.sankhacooray.com/"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools for visual work",
+      "lede": "Stock imagery searched and cropped in batches, and a laser layout you can see before it burns.",
+      "context": "Pixels · Helix Studio",
+      "projects": [
+        {
+          "name": "Pixels",
+          "desc": "Search free stock photos and videos, then batch-crop them into square puzzle tiles.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sankhacooray",
+          "years": "2026",
+          "og": "https://pixels.sankhacooray.com/",
+          "thumb": "pixels.jpg",
+          "url": "https://pixels.sankhacooray.com/",
+          "parts": [
+            {"name": "Pixels", "kind": "Public web client with pluggable connectors", "repo": "pixels-sankhacooray-com"},
+            {"name": "Pexels proxy", "kind": "Apps Script service that keeps the API key", "repo": "pixels-sankhacooray-appscript"}
+          ]
+        },
+        {
+          "name": "Helix Studio",
+          "desc": "Lay out PDFs on your stock, preview the burn on real material, then send it to the laser.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sclab",
+          "years": "2026",
+          "og": "https://helix.sankhacooray.com/",
+          "thumb": "helix.jpg",
+          "url": "https://helix.sankhacooray.com/",
+          "parts": [
+            {"name": "Helix Studio", "kind": "Local web app with a Python server", "repo": "helix-studio-app"},
+            {"name": "Helix site", "kind": "Product site on a Cloudflare Worker", "repo": "helix-sankhacooray-com"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thinking",
+      "title": "Design thinking",
+      "lede": "ICE (Innovation, Creativity & Entrepreneurship) runs design-thinking programmes for students in Sri Lanka.",
+      "context": "ICE · Sri Lanka",
+      "projects": [
+        {
+          "name": "Design Thinking @ SL",
+          "desc": "Where participants and mentors build profiles, form teams and manage their work.",
+          "plat": ["web"],
+          "role": "co",
+          "org": "designthinking-lk",
+          "years": "2026",
+          "og": "https://designthinking.lk/",
+          "thumb": "designthinking.jpg",
+          "url": "https://designthinking.lk/",
+          "parts": [
+            {"name": "Design Thinking @ SL", "kind": "Participant and mentor platform", "repo": "designthinking-lk"},
+            {"name": "ICE Central", "kind": "API and admin console for running cohorts", "repo": "ice-designthinking-lk"}
+          ]
+        },
+        {
+          "name": "ICE 2025",
+          "desc": "The archive of the ICE 2025 programme: participants, teams, the 3D venue and media.",
+          "plat": ["web"],
+          "role": "co",
+          "org": "designthinking-lk",
+          "years": "2025–2026",
+          "thumb": "ice2025.jpg",
+          "url": "https://ice2025.designthinking.lk/"
+        },
+        {
+          "name": "ICEHub",
+          "desc": "Workshop collaboration: teams, mentors, announcements and real-time chat.",
+          "plat": ["web"],
+          "role": "contrib",
+          "org": "Prasanth Sasikumar",
+          "years": "2025–2026"
+        }
+      ]
+    }
+  ],
+  "yearsNote": "From each project's git history (first to last commit). ICE 2025 covers the 2025 programme and its 2026 archive.",
+  "thumbsNote": "Cards with an `og` page show a local copy of that page's share image, then swap in the current og:image live through the Worker (/api/og). ICE 2025 has no share image, so it keeps a screenshot; ICEHub has no public site.",
+  "cardsNote": "Cards show only things people use. Backends and product sites are listed as parts of their product (hover the parts chip)."
+}

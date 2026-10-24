@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "design · Sankha Cooray",
+  "short_name": "design",
+  "description": "Design projects by Sankha Cooray: the palette interface portfolio, meta share cards, Pixels image search, Helix Studio and ICE design-thinking programmes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#1c1a1f",
+  "background_color": "#f6f4f1",
+  "lang": "en",
+  "categories": ["design", "portfolio"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
