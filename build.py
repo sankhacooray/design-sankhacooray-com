@@ -43,15 +43,24 @@ def initials(name):
     return "".join(w[0] for w in words[:2]).upper()
 
 
+def thumb_src(name):
+    """WebP thumb (800w + 400w) when present beside the JPG, else the JPG itself."""
+    stem = name.rsplit(".", 1)[0]
+    if os.path.exists(os.path.join(HERE, "public", "thumbs", stem + ".webp")):
+        return (f'src="/thumbs/{e(stem)}.webp" srcset="/thumbs/{e(stem)}-400.webp 400w, /thumbs/{e(stem)}.webp 800w" '
+                f'sizes="(max-width: 600px) 92vw, 380px"')
+    return f'src="/thumbs/{e(name)}"'
+
+
 def card(p):
     if p.get("og") and p.get("thumb"):
-        art = (f'<div class="art fallback has-thumb"><img class="local" src="/thumbs/{e(p["thumb"])}" alt="{e(p["name"])}" loading="lazy" width="800" height="420">'
+        art = (f'<div class="art fallback has-thumb"><img class="local" {thumb_src(p["thumb"])} alt="{e(p["name"])}" loading="lazy" width="800" height="420">'
                f'<img class="live-og" data-og="{e(p["og"])}" alt="" width="1200" height="630"></div>')
     elif p.get("og"):
         art = (f'<div class="art fallback" aria-hidden="true">{KIND[kind(p)]}'
                f'<img class="live-og" data-og="{e(p["og"])}" alt="" width="1200" height="630"></div>')
     elif p.get("thumb"):
-        art = f'<div class="art"><img src="/thumbs/{e(p["thumb"])}" alt="{e(p["name"])}" loading="lazy" width="800" height="420"></div>'
+        art = f'<div class="art"><img {thumb_src(p["thumb"])} alt="{e(p["name"])}" loading="lazy" width="800" height="420"></div>'
     else:
         art = f'<div class="art blank" aria-hidden="true">{KIND[kind(p)]}</div>'
     if p.get("years"):

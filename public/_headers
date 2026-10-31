@@ -1,0 +1,10 @@
+# Workers static assets: cache headers (HTML stays at the default revalidate).
+# Images and icons are not fingerprinted, so a 30-day TTL rather than immutable.
+/thumbs/*
+  Cache-Control: public, max-age=2592000
+/og.png
+  Cache-Control: public, max-age=2592000
+/icon*
+  Cache-Control: public, max-age=2592000
+/apple-touch-icon.png
+  Cache-Control: public, max-age=2592000
