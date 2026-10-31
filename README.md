@@ -1,7 +1,7 @@
 # design
 
 **[design.sankhacooray.com](https://design.sankhacooray.com)** — the visual & interaction design hub in the
-sankhacooray.com network: the palette interface portfolio, meta share-card gallery, Pixels image search,
+sankhacooray.com network: the PayNow deep-link sandbox, meta share-card gallery, Pixels image search,
 Helix Studio, and the ICE design-thinking programme sites.
 
 Served by a Cloudflare Worker (`design-sankhacooray`): static assets from `public/`, plus `src/worker.js`, whose

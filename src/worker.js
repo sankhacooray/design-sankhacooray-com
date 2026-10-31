@@ -8,7 +8,7 @@
 //   its fallback art.
 
 const ALLOWED_HOSTS = new Set([
-  "palette.sankhacooray.com",
+  "paynow.sankhacooray.com",
   "meta.sankhacooray.com",
   "pixels.sankhacooray.com",
   "helix.sankhacooray.com",

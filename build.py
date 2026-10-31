@@ -129,7 +129,7 @@ for g in data["groups"]:
 allp = [p for g in data["groups"] for p in g["projects"]]
 live = sum(1 for p in allp if p.get("url"))
 
-desc = ("Design projects by Sankha Cooray: the palette interface portfolio, meta share cards, Pixels image search, "
+desc = ("Design projects by Sankha Cooray: PayNow deep-link tests, meta share cards, Pixels image search, "
         "Helix Studio and ICE design-thinking programmes.")
 assert 120 <= len(desc) <= 160, len(desc)
 

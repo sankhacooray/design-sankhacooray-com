@@ -9,18 +9,18 @@
       "id": "interface",
       "title": "Interface design",
       "lede": "Small web apps that share one house style, and the share cards that carry them into a chat.",
-      "context": "palette · meta",
+      "context": "PayNow · meta",
       "projects": [
         {
-          "name": "palette",
-          "desc": "A working portfolio of interface design: live apps, the house style and this family's palettes.",
+          "name": "PayNow",
+          "desc": "Tap-test which Singapore payment-app deep links really open on your phone.",
           "plat": ["web"],
           "role": "mine",
           "org": "sankhacooray",
           "years": "2026",
-          "og": "https://palette.sankhacooray.com/",
-          "thumb": "palette.jpg",
-          "url": "https://palette.sankhacooray.com/"
+          "og": "https://paynow.sankhacooray.com/",
+          "thumb": "paynow.jpg",
+          "url": "https://paynow.sankhacooray.com/"
         },
         {
           "name": "meta",
