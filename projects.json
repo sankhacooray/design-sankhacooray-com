@@ -38,8 +38,8 @@
     {
       "id": "tools",
       "title": "Tools for visual work",
-      "lede": "Stock imagery searched and cropped in batches, and a laser layout you can see before it burns.",
-      "context": "Pixels · Helix Studio",
+      "lede": "Stock imagery searched and cropped in batches, and studios that show the cut, the burn or the label before it happens.",
+      "context": "Pixels · Helix Studio · Kerf Studio · Tapeline Studio",
       "projects": [
         {
           "name": "Pixels",
@@ -52,8 +52,16 @@
           "thumb": "pixels.jpg",
           "url": "https://pixels.sankhacooray.com/",
           "parts": [
-            {"name": "Pixels", "kind": "Public web client with pluggable connectors", "repo": "pixels-sankhacooray-com"},
-            {"name": "Pexels proxy", "kind": "Apps Script service that keeps the API key", "repo": "pixels-sankhacooray-appscript"}
+            {
+              "name": "Pixels",
+              "kind": "Public web client with pluggable connectors",
+              "repo": "pixels-sankhacooray-com"
+            },
+            {
+              "name": "Pexels proxy",
+              "kind": "Apps Script service that keeps the API key",
+              "repo": "pixels-sankhacooray-appscript"
+            }
           ]
         },
         {
@@ -67,8 +75,62 @@
           "thumb": "helix.jpg",
           "url": "https://helix.sankhacooray.com/",
           "parts": [
-            {"name": "Helix Studio", "kind": "Local web app with a Python server", "repo": "helix-studio-app"},
-            {"name": "Helix site", "kind": "Product site on a Cloudflare Worker", "repo": "helix-sankhacooray-com"}
+            {
+              "name": "Helix Studio",
+              "kind": "Local web app with a Python server",
+              "repo": "helix-studio-app"
+            },
+            {
+              "name": "Helix site",
+              "kind": "Product site on a Cloudflare Worker",
+              "repo": "helix-sankhacooray-com"
+            }
+          ]
+        },
+        {
+          "name": "Kerf Studio",
+          "desc": "Turns the Cut lines in a PDF, SVG or PLT into a cutter job, registered to the printed marks.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sclab",
+          "years": "2026",
+          "og": "https://kerf.sankhacooray.com/",
+          "thumb": "kerf.jpg",
+          "url": "https://kerf.sankhacooray.com/",
+          "parts": [
+            {
+              "name": "Kerf Studio",
+              "kind": "Local web app and Node server",
+              "repo": "kerf-studio-app"
+            },
+            {
+              "name": "Kerf site",
+              "kind": "Product site on a Cloudflare Worker",
+              "repo": "kerf-sankhacooray-com"
+            }
+          ]
+        },
+        {
+          "name": "Tapeline Studio",
+          "desc": "Design a label in the browser and print it on a Brother P‑touch over USB, no driver needed.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sclab",
+          "years": "2026",
+          "og": "https://tapeline.sankhacooray.com/",
+          "thumb": "tapeline.jpg",
+          "url": "https://tapeline.sankhacooray.com/",
+          "parts": [
+            {
+              "name": "Tapeline Studio",
+              "kind": "Browser app with a WebUSB printer driver",
+              "repo": "tapeline-studio-app"
+            },
+            {
+              "name": "Tapeline site",
+              "kind": "Product page and hosted studio on a Worker",
+              "repo": "tapeline-sankhacooray-com"
+            }
           ]
         }
       ]
@@ -90,8 +152,16 @@
           "thumb": "designthinking.jpg",
           "url": "https://designthinking.lk/",
           "parts": [
-            {"name": "Design Thinking @ SL", "kind": "Participant and mentor platform", "repo": "designthinking-lk"},
-            {"name": "ICE Central", "kind": "API and admin console for running cohorts", "repo": "ice-designthinking-lk"}
+            {
+              "name": "Design Thinking @ SL",
+              "kind": "Participant and mentor platform",
+              "repo": "designthinking-lk"
+            },
+            {
+              "name": "ICE Central",
+              "kind": "API and admin console for running cohorts",
+              "repo": "ice-designthinking-lk"
+            }
           ]
         },
         {
