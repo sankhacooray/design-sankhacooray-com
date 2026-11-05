@@ -14,6 +14,7 @@ const ALLOWED_HOSTS = new Set([
   "helix.sankhacooray.com",
   "kerf.sankhacooray.com",
   "tapeline.sankhacooray.com",
+  "ream.sankhacooray.com",
   "designthinking.lk",
   "ice2025.designthinking.lk",
 ]);

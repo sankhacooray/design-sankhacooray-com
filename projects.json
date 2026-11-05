@@ -38,8 +38,8 @@
     {
       "id": "tools",
       "title": "Tools for visual work",
-      "lede": "Stock imagery searched and cropped in batches, and studios that show the cut, the burn or the label before it happens.",
-      "context": "Pixels · Helix Studio · Kerf Studio · Tapeline Studio",
+      "lede": "Stock imagery searched and cropped in batches, and studios that show the cut, the burn, the label or the sheet before it happens.",
+      "context": "Pixels · Helix Studio · Kerf Studio · Tapeline Studio · Ream Studio",
       "projects": [
         {
           "name": "Pixels",
@@ -130,6 +130,29 @@
               "name": "Tapeline site",
               "kind": "Product page and hosted studio on a Worker",
               "repo": "tapeline-sankhacooray-com"
+            }
+          ]
+        },
+        {
+          "name": "Ream Studio",
+          "desc": "Planners, calendars, attendance sheets and labels, printed in one click with no document to open.",
+          "plat": ["web"],
+          "role": "mine",
+          "org": "sclab",
+          "years": "2026",
+          "og": "https://ream.sankhacooray.com/",
+          "thumb": "ream.jpg",
+          "url": "https://ream.sankhacooray.com/",
+          "parts": [
+            {
+              "name": "Ream Studio",
+              "kind": "Browser app with a PDF engine and a local print bridge",
+              "repo": "ream-studio-app"
+            },
+            {
+              "name": "Ream site",
+              "kind": "Product page, hosted studio and AHL roster API on a Worker",
+              "repo": "ream-sankhacooray-com"
             }
           ]
         }
