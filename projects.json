@@ -1,8 +1,7 @@
 {
   "roles": {
     "mine": "Mine",
-    "co": "Co-owned",
-    "contrib": "Contributed"
+    "co": "Co-owned"
   },
   "groups": [
     {
@@ -36,6 +35,39 @@
           "og": "https://meta.sankhacooray.com/",
           "thumb": "meta.jpg",
           "url": "https://meta.sankhacooray.com/"
+        }
+      ]
+    },
+    {
+      "id": "thinking",
+      "title": "Design thinking",
+      "lede": "ICE (Innovation, Creativity & Entrepreneurship) runs design-thinking programmes for students in Sri Lanka.",
+      "context": "ICE · Sri Lanka",
+      "projects": [
+        {
+          "name": "Design Thinking @ SL",
+          "desc": "Where participants and mentors build profiles, form teams and manage their work.",
+          "plat": [
+            "web"
+          ],
+          "role": "co",
+          "org": "designthinking-lk",
+          "years": "2026",
+          "og": "https://designthinking.lk/",
+          "thumb": "designthinking.jpg",
+          "url": "https://designthinking.lk/",
+          "parts": [
+            {
+              "name": "Design Thinking @ SL",
+              "kind": "Participant and mentor platform",
+              "repo": "designthinking-lk"
+            },
+            {
+              "name": "ICE Central",
+              "kind": "API and admin console for running cohorts",
+              "repo": "ice-designthinking-lk"
+            }
+          ]
         }
       ]
     },
@@ -196,64 +228,9 @@
           ]
         }
       ]
-    },
-    {
-      "id": "thinking",
-      "title": "Design thinking",
-      "lede": "ICE (Innovation, Creativity & Entrepreneurship) runs design-thinking programmes for students in Sri Lanka.",
-      "context": "ICE · Sri Lanka",
-      "projects": [
-        {
-          "name": "Design Thinking @ SL",
-          "desc": "Where participants and mentors build profiles, form teams and manage their work.",
-          "plat": [
-            "web"
-          ],
-          "role": "co",
-          "org": "designthinking-lk",
-          "years": "2026",
-          "og": "https://designthinking.lk/",
-          "thumb": "designthinking.jpg",
-          "url": "https://designthinking.lk/",
-          "parts": [
-            {
-              "name": "Design Thinking @ SL",
-              "kind": "Participant and mentor platform",
-              "repo": "designthinking-lk"
-            },
-            {
-              "name": "ICE Central",
-              "kind": "API and admin console for running cohorts",
-              "repo": "ice-designthinking-lk"
-            }
-          ]
-        },
-        {
-          "name": "ICE 2025",
-          "desc": "The archive of the ICE 2025 programme: participants, teams, the 3D venue and media.",
-          "plat": [
-            "web"
-          ],
-          "role": "co",
-          "org": "designthinking-lk",
-          "years": "2025–2026",
-          "thumb": "ice2025.jpg",
-          "url": "https://ice2025.designthinking.lk/"
-        },
-        {
-          "name": "ICEHub",
-          "desc": "Workshop collaboration: teams, mentors, announcements and real-time chat.",
-          "plat": [
-            "web"
-          ],
-          "role": "contrib",
-          "org": "Prasanth Sasikumar",
-          "years": "2025–2026"
-        }
-      ]
     }
   ],
-  "yearsNote": "From each project's git history (first to last commit). ICE 2025 covers the 2025 programme and its 2026 archive.",
-  "thumbsNote": "Cards with an `og` page show a local copy of that page's share image, then swap in the current og:image live through the Worker (/api/og). ICE 2025 has no share image, so it keeps a screenshot; ICEHub has no public site.",
+  "yearsNote": "From each project's git history (first to last commit).",
+  "thumbsNote": "Cards with an `og` page show a local copy of that page's share image, then swap in the current og:image live through the Worker (/api/og).",
   "cardsNote": "Cards show only things people use. Backends and product sites are listed as parts of their product (hover the parts chip)."
 }

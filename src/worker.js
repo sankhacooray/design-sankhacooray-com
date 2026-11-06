@@ -17,7 +17,6 @@ const ALLOWED_HOSTS = new Set([
   "ream.sankhacooray.com",
   "platen.sankhacooray.com",
   "designthinking.lk",
-  "ice2025.designthinking.lk",
 ]);
 const TTL = 3600; // seconds browsers and the edge keep a result
 

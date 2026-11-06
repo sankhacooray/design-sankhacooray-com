@@ -17,14 +17,13 @@ The VS Code workspace for the hub and its projects is `../design-sankhacooray-co
 | `footer.html` | One-line footer, placed in the last section |
 | `template.html` | Page template (CSS + JS inline): studio palette, artboard hero, design-glyph particles |
 | `build.py` | Renders `public/index.html`; packs small areas side by side in balanced rows |
-| `public/thumbs/` | Local copies of each project's share image (800×420); ICE 2025 is a screenshot |
+| `public/thumbs/` | Local copies of each project's share image (800×420) |
 | `public/og.png` | 1200×630 share image, rendered from `og/og.html` |
 | `public/icon*.png`, `icon.svg`, `apple-touch-icon.png`, `manifest.webmanifest` | Icons + PWA manifest |
 | `src/worker.js` | Serves assets; `/api/og` live share-image proxy |
 | `wrangler.toml` | Worker config + custom domain (creates the DNS record) |
 
-Roles on each card: **Mine** (I built and run it), **Co-owned** (shared ownership — the ICE programme sites),
-**Contributed** (belongs to a colleague — ICEHub). Only live sites are linked; several source repositories are private.
+Roles on each card: **Mine** (I built and run it) and **Co-owned** (shared ownership — the ICE programme sites). Only live sites are linked; several source repositories are private.
 
 ## Edit, preview, deploy
 
