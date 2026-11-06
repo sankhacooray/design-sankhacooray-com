@@ -2,7 +2,7 @@
 
 **[design.sankhacooray.com](https://design.sankhacooray.com)** — the visual & interaction design hub in the
 sankhacooray.com network: the PayNow deep-link sandbox, meta share-card gallery, Pixels image search,
-Helix Studio, Kerf Studio, Tapeline Studio, Ream Studio, and the ICE design-thinking programme sites.
+Helix Studio, Kerf Studio, Tapeline Studio, Ream Studio, Platen, and the ICE design-thinking programme sites.
 
 Served by a Cloudflare Worker (`design-sankhacooray`): static assets from `public/`, plus `src/worker.js`, whose
 `/api/og?url=` route fetches a project site's current `og:image` (allowlisted hosts only, cached 1 h). Cards with an

@@ -14,7 +14,9 @@
         {
           "name": "PayNow",
           "desc": "Tap-test which Singapore payment-app deep links really open on your phone.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sankhacooray",
           "years": "2026",
@@ -25,7 +27,9 @@
         {
           "name": "meta",
           "desc": "Every sankhacooray.com sub-site, shown as the share card you see when you paste its link.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sankhacooray",
           "years": "2026",
@@ -38,13 +42,15 @@
     {
       "id": "tools",
       "title": "Tools for visual work",
-      "lede": "Stock imagery searched and cropped in batches, and studios that show the cut, the burn, the label or the sheet before it happens.",
-      "context": "Pixels · Helix Studio · Kerf Studio · Tapeline Studio · Ream Studio",
+      "lede": "Stock imagery searched and cropped in batches, and studios that show the cut, the burn, the label, the sheet or the print before it happens.",
+      "context": "Pixels · Helix Studio · Kerf Studio · Tapeline Studio · Ream Studio · Platen",
       "projects": [
         {
           "name": "Pixels",
           "desc": "Search free stock photos and videos, then batch-crop them into square puzzle tiles.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sankhacooray",
           "years": "2026",
@@ -67,7 +73,9 @@
         {
           "name": "Helix Studio",
           "desc": "Lay out PDFs on your stock, preview the burn on real material, then send it to the laser.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sclab",
           "years": "2026",
@@ -90,7 +98,9 @@
         {
           "name": "Kerf Studio",
           "desc": "Turns the Cut lines in a PDF, SVG or PLT into a cutter job, registered to the printed marks.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sclab",
           "years": "2026",
@@ -113,7 +123,9 @@
         {
           "name": "Tapeline Studio",
           "desc": "Design a label in the browser and print it on a Brother P‑touch over USB, no driver needed.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sclab",
           "years": "2026",
@@ -136,7 +148,9 @@
         {
           "name": "Ream Studio",
           "desc": "Planners, calendars, attendance sheets and labels, printed in one click with no document to open.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "mine",
           "org": "sclab",
           "years": "2026",
@@ -155,6 +169,31 @@
               "repo": "ream-sankhacooray-com"
             }
           ]
+        },
+        {
+          "name": "Platen",
+          "desc": "Live ink, status and head maintenance for an Epson flatbed UV printer, driven from a Mac. Private preview.",
+          "plat": [
+            "web"
+          ],
+          "role": "mine",
+          "org": "sclab",
+          "years": "2026",
+          "og": "https://platen.sankhacooray.com/",
+          "thumb": "platen.jpg",
+          "url": "https://platen.sankhacooray.com/",
+          "parts": [
+            {
+              "name": "Platen Studio",
+              "kind": "Private browser app with a local Node bridge to the printer",
+              "repo": "platen-studio-app"
+            },
+            {
+              "name": "Platen site",
+              "kind": "Product page and enquiry API on a Worker",
+              "repo": "platen-sankhacooray-com"
+            }
+          ]
         }
       ]
     },
@@ -167,7 +206,9 @@
         {
           "name": "Design Thinking @ SL",
           "desc": "Where participants and mentors build profiles, form teams and manage their work.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "co",
           "org": "designthinking-lk",
           "years": "2026",
@@ -190,7 +231,9 @@
         {
           "name": "ICE 2025",
           "desc": "The archive of the ICE 2025 programme: participants, teams, the 3D venue and media.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "co",
           "org": "designthinking-lk",
           "years": "2025–2026",
@@ -200,7 +243,9 @@
         {
           "name": "ICEHub",
           "desc": "Workshop collaboration: teams, mentors, announcements and real-time chat.",
-          "plat": ["web"],
+          "plat": [
+            "web"
+          ],
           "role": "contrib",
           "org": "Prasanth Sasikumar",
           "years": "2025–2026"
